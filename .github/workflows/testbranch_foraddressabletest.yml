@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'foraddressabletest'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_eff8043377574386af7a822167d83d19 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6991eaaf525940c589c416855b2dae34 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
