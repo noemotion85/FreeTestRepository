@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'freevertest'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1a65d48668e640968c51ecd2eb536663 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_66f6babcf54641fa8412bf002ba31f80 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
